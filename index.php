@@ -15,8 +15,7 @@
             <h2 class="text-3xl font-semibold mb-8">Trending Audio</h2>
             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="4" autoplay-delay="2500" autoplay-disable-on-interaction="false">
 
-            <?php $audio= [1,2,3,4];?>
-            <?php for ($i=0; $i < count($audio); $i++):?>
+            <?php for ($i=0; $i < 6; $i++):?>
                 <!-- Featured Audio Card -->
                 <swiper-slide class="bg-blue-700 shadow rounded-lg p-6">
                     <div class="flex justify-center mb-4">
@@ -79,11 +78,10 @@
             <h1 class="text-2xl text-white font-serif font-bold text-center mb-2">Recently added Songs</h1>
             <!-- card -->
             <div class="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg shadow-2xl">
-                <?php $card = [1,2,3,4];?>
                 <!-- audio song -->
-                <?php for ($i=0; $i < count($card); $i++):?>
+                <?php for ($i=0; $i < 5; $i++):?>
                 <div class="flex">
-                    <h1 class="p-2 bg-yellow-300 text-center text-white rounded-l-lg">1</h1>
+                    <h1 class="p-2 bg-yellow-300 text-center text-white rounded-l-lg"><?php echo $i?></h1>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAXKmnYalIWQsbi8IhsFv2mQLSnZQUwWKCaOvqUkBuNPvFfBJiCAmN--1WTjgMABfVOg&usqp=CAU" class="w-24 h-18 rounded-r-lg" alt="">
                     <div class="flex flex-col px-2">
                         <h3 class="text-black font-semibold">Ndara</h3>
@@ -110,7 +108,7 @@
             <!-- card -->
             <div class="flex flex-col gap-4 bg-white px-4 py-12 rounded-lg shadow-2xl">
                 <!-- audio song -->
-                <?php for ($i=0; $i < count($card); $i++):?>
+                <?php for ($i=0; $i < 5; $i++):?>
                 <div class="flex">
                     <h1 class="p-2 bg-purple-300 text-center text-white rounded-l-lg">1</h1>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxw2ujHRxPSlt282Vqap2ZB73NDxrlXCbsY1ad_zAoLQ12VnVQs7jkixx0qWgANwfMdW4&usqp=CAU" class="w-24 h-18 rounded-r-lg" alt="">
