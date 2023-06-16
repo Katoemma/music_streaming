@@ -21,7 +21,7 @@
                     <input type="password" id="password" class="bg-gray-800 w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your password" required>
                 </div>
                 <div class="flex flex-col items-center gap-4">
-                    <button type="submit" class="w-full bg-red-700 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Login</button>
+                    <button type="submit" class="w-full bg-red-700 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Login</button>
                     <a href="#" class="text-blue-500 hover:underline">Forgot Password?</a>
                 </div>
             </form>

@@ -29,7 +29,7 @@
                     <input type="password" id="confirm-password" class="bg-gray-800 w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Confirm your password" required>
                 </div>
                 <div class="flex flex-col items-center">
-                    <button type="submit" class="w-full bg-red-700 hover:bg-blue-600 text-white font-semibold py-2 px-8 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Sign Up</button>
+                    <button type="submit" class="w-full bg-red-700 hover:bg-red-600 text-white font-semibold py-2 px-8 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Sign Up</button>
                 </div>
             </form>
             <p class="text-white text-sm mt-4">Already have an account? <a href="login.php" class="text-red-700 hover:underline">Log in here</a></p>

@@ -35,8 +35,8 @@
         <div class="hidden md:flex md:items-center">
             <a href="#" class="text-white mx-2 hover:text-gray-300">Home</a>
             <a href="#" class="text-white mx-2 hover:text-gray-300">Categories</a>
-            <a href="#" class="text-white mx-2 hover:text-gray-300">Login</a>
-            <a href="#" class="text-white mx-2 hover:text-gray-300">Register</a>
+            <a href="login.php" class="text-white mx-2 hover:text-gray-300">Login</a>
+            <a href="register.php" class="text-white mx-2 hover:text-gray-300">Register</a>
 
             <div class="group pl-4">
                 <button class="text-2xl"><i class="fa fa-user text-white"></i></button>
@@ -63,7 +63,7 @@
         </form>
         <a href="#" class="block text-white mx-2 my-4 hover:text-gray-300">Home</a>
         <a href="#" class="block text-white mx-2 my-4 hover:text-gray-300">Browse</a>
-        <a href="#" class="block text-white mx-2 my-4 hover:text-gray-300">Login</a>
-        <a href="#" class="block text-white mx-2 my-4 hover:text-gray-300">Register</a>
+        <a href="login.php" class="block text-white mx-2 my-4 hover:text-gray-300">Login</a>
+        <a href="register.php" class="block text-white mx-2 my-4 hover:text-gray-300">Register</a>
     </div>
 </nav>
