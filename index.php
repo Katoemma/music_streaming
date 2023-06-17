@@ -1,3 +1,12 @@
+<?php 
+    session_start();
+?>
+<?php
+    if (!isset($_SESSION['type'])) {
+        
+        header('location:login.php');
+    }
+?>
 <?php include 'includes/header.php' ?>
 
     <div class="fixed z-0 top-0 bg-blue-500 h-screen w-full" style="background-image: url(https://www.danbairdandhomemadesin.net/wp-content/uploads/2020/12/music-hero.jpg);">
@@ -38,7 +47,7 @@
     <!-- Category Section -->
     <section class="relative z-20 bg-gray-200 py-16 px-4 text-white h-max" style="background-image: url(https://t4.ftcdn.net/jpg/05/73/66/73/360_F_573667383_c12BMaF9s2fckC1Xl1xvYH7ZoL1zuuFB.jpg); background-repeat: no-repeat; background-size: cover;">
         <div class="flex flex-col container mx-auto md:items-center">
-            <h2 class="text-3xl font-semibold mb-8">Browse by Category</h2>
+            <h2 class="text-3xl font-semibold mb-8">Genres</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <!-- Category Card -->
                 <?php for ($i=0; $i < 4; $i++):?>
