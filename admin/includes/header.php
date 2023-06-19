@@ -83,10 +83,12 @@
                 ><div class="items-center flex">
                   <span
                     class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
-                    ><img
+                    >
+                    <!-- profile pic for mobile devices -->
+                    <img
                       alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="./assets/img/team-1-800x800.jpg"
+                      class="w-12 h-12 rounded-full align-middle border-none shadow-lg"
+                      src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg"
                   /></span></div
               ></a>
               <div
@@ -244,10 +246,12 @@
                 <div class="items-center flex">
                   <span
                     class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
-                    ><img
+                    >
+                    <!-- profile picture -->
+                    <img
                       alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="./assets/img/team-1-800x800.jpg"
+                      class="w-full w-12 h-12 rounded-full align-middle border-none shadow-lg"
+                      src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg"
                   /></span>
                 </div>
               </a>
