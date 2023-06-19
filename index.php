@@ -148,6 +148,7 @@
         </div>
 
     </section>
+    <?php include 'player.php' ?>
     <?php include 'includes/footer.php' ?>
 
 

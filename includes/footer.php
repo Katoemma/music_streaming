@@ -1,5 +1,5 @@
     <!-- Footer -->
-    <footer class="relative z-20 bg-gray-900 text-white py-4">
+    <footer class="relative z-10 bg-gray-900 text-white py-4">
         <div class="container mx-auto text-center">
             &copy; 2023 Audio Cloud App. All rights reserved.
         </div>
